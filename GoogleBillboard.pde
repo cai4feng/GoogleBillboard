@@ -14,7 +14,6 @@ public void draw()
 		println(dNum);
 	}
 	}
-
 }  
 public boolean isPrime(double dNum)  
 {   
@@ -22,7 +21,6 @@ public boolean isPrime(double dNum)
   {
   return false;
   }
-  
   for(int i = 2; i<= Math.sqrt(dNum); i++)
   {
   if(dNum % i == 0)
